@@ -27,7 +27,7 @@ namespace CareerCloud.Pocos
         [Column("Country_Code")]
         public string Country { get; set; } //FK
 
-        [Column("State_Province_Code")]
+        [Column("State_Province_Code")] // you are use your prefered code
         public string Province { get; set; }
 
         [Column("Street_Address")]
